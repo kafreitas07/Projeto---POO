@@ -109,7 +109,7 @@ public class Main {
         } while (escolha != 0);
 
         cliente.Compras();
-        cliente.Total();
+        cliente.CalculaTotalCompra();
         scanner.close();
     }
 }
