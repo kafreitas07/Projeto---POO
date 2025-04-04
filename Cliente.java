@@ -25,7 +25,7 @@ public class Cliente {
         for (int i = 0; i < computadores.length; i++) {
             if (computadores[i] != null) {
                 System.out.println( (i+1) + "° Compra:");
-                computadores[i].MostrarConfig();
+                computadores[i].mostraPCConfigs();
                 total += computadores[i].preco;
                 System.out.println();
             }
@@ -42,7 +42,7 @@ public class Cliente {
         }
         return new String(cpfArray);
     }
-    public float Total() {
+    public float CalculaTotalCompra() {
         float total = 0;
         for (int i = 0; i < computadores.length; i++) {
             if (computadores[i] != null) {
