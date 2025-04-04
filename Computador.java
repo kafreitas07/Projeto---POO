@@ -12,7 +12,7 @@ public class Computador {
 
     }
 
-    public void MostrarConfig() {
+    public void mostraPCConfigs() {
         System.out.println("Marca: " + marca);
         for (int i = 0; i < hardware.length ; i++) {
             if (hardware[i] != null)
